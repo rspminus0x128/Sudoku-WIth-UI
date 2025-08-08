@@ -1,0 +1,35 @@
+# IDE-specific user settings
+*.user
+*.suo
+*.sdf
+*.cache
+*.log
+.vs/
+
+# Build output
+bin/
+obj/
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.secret
+*.config
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+
+# Credential storage
+credentials.json
+auth.json
+secrets.json
